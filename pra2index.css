@@ -10,111 +10,102 @@ html, body {
 }
 
  a::after {
-     content: '';
-     position: absolute;
-    bottom: 1px;
-    left: 0;
-    width: 0;
-     height: 2px;
-     background: #fc4902e0 ;
-     transition: width 0.3s ease;
-     border-radius: 10px;
-     justify-content: center !important;
-     text-align: center !important;
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+   width: 0;
+   height: 2px;
+   background: #fc4902e0 ;
+   transition: width 0.3s ease;
+   border-radius: 10px;
+   justify-content: center !important;
+   text-align: center !important;
         }
 
- a:hover::after {
+a:hover::after {
     justify-content: center !important;
     width: 100%;
     text-align: center !important;
-     }
+ }
 
 .navbar-expand-lg{
   background-color: black !important;
  }
 
 .n-sp{
-  color: #fc4902e0 !important;
- }
+   color: #fc4902e0 !important;
+}
 
-.n{
-  margin-left: 5%!important;
+ .n{
+margin-left: 5% !important;
  }
 
 .navbar-nav{ 
-   font-size: 14px !important; 
-}
-     
-li,a{
-  transition: all 0.5s ease !important;
+font-size: 14px !important; 
+ }
+       
+ li,a{
+   transition: all 0.5s ease !important;
   color: #f0f8ff !important;
   position: relative;
-    }
+        }
 
-a:hover{
+ a:hover{
   color: #fc4902e0 !important;
-  }
-
-        /* hed section 1 */
-
-.had-img {
-   background-image: url("/farst test are websaite/parsnal pro/parsnl-all -img/par2.had.jpg");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   text-align: center;
-   justify-content: center;
-   width: 100% !important; 
-   height: 100vh !important;
-   margin-top: 70px !important;
-   flex-direction: column;
-   display: flex;
-}
-@media(max-width: 991px){
-  .had-img { max-height: 400px;
-    margin-top: 70px !important; }
  }
 
-@media(max-width: 767px){
-.had-img { max-height: 300px; }
-  }
+ /* hed section 1 */
 
-
-.clr{
-color: #fc4902e0 !important
-} 
-
-.ab-h1{
-   font-size: clamp(1.5rem,5vw,5rem) !important;
-   color: hsl(0, 0%, 3%);   }
-
-/* sectio 2 */
-
-.ss{
-  border: none !important;
-  border-radius: 0px 0px 10px 10px !important;
+.had-img {
+    background-image: url("/farst test are websaite/parsnal pro/parsnl-all-img/par3-had.jpg");
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    text-align: center !important;
+    justify-content: center !important;
+  width: 100% !important; 
+  height: 100vh !important;
+  margin-top: 70px !important;
+  flex-direction: column;
+  display: flex;
 }
 
-.img-ab{
-  display: inline-block;
-  width: 100% !important;
-  height: 90%;
-} 
+.clr{
+   color: #fc4902e0 !important;
+}
 
-/* section 3 */
+.ab-h1{
+  font-size: clamp(1.5rem,5vw,5rem) !important;
+   color: #000;   }
+
+@media(max-width: 991px){
+  .had-img { max-height: 400px;
+    margin-top: 73px !important; }
+ }
+
+ @media(max-width: 767px){
+  .had-img { max-height: 300px; }
+}
+
+/* sectio 2 */
 
 .product-box {
   border-radius: 10px;
   background-color: hsl(0, 0%, 100%);
   overflow: hidden;
-  box-shadow: 0 6px 10px rgba(19, 18, 18, 0.2); /* 👈 shadow */
-  transition: 0.3s ease-in-out; /* smooth hover animation */
+  box-shadow: 0 6px 10px rgba(19, 18, 18, 0.2); 
+  transition: 0.3s ease-in-out; 
 }
-
-.product-box:hover {
+.product-box:hover  {
   transform: translateY(-14px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+ .page-btn:hover {
+    background-color: #4993e2;
+    transform: translateY(-14px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
 
 .product-box img {
   width: 100%;
@@ -122,89 +113,91 @@ color: #fc4902e0 !important
 }
 
 .star{
-font-size: 25px !important;
-    color:gold;
+  font-size: 25px !important;
+  color:gold;
  }
 
 .rew{
-font-size: 13px !important;
-color: crimson;
+  font-size: 13px !important;
+  color: crimson;
 }
 
 .hading{
- color: rgb(8, 111, 207);
-}
-
-.s3-h3{
-font-size: clamp(1.5rem,2.5vw,5rem) !important;
- }
-
-/* section 4 */
-.s-4-had{
-  color: rgb(78, 78, 114);
-}
-
-.s-4-h2{
   color: rgb(8, 111, 207);
 }
 
-.s4-p{
-  color: #222020 !important;
+.s3-h3{
+  font-size: clamp(1.5rem,2.5vw,5rem) !important;
+       }
+
+ /* js paginaction */
+       .section {
+      display: none;
+    }
+    .section.active {
+      display: block;
+    }
+      .page-btn {
+      background-color: #fff;
+      border: none;
+    
+      padding: 10px 20px;
+      cursor: pointer;
+      border: 2px solid rgb(7, 7, 7);
+      border-radius: 15%;
+      transition: 0.3s ease-in-out;
+    }
+    .k{
+      margin-top: 10% !important;
+     display: flex; 
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
 }
 
-.s-4-btn{
-   background-color:  rgba(160, 16, 23, 0.979);
-   z-index: 5000;
-   border-radius: 50px !important;
-   color: #f8f5f5;
-}
+  .kk{
+  gap: 7px !important; 
+  }
 
-.img-ab{
- display: inline-block;
- width: 100% !important;
- height: 90%;
-}
+.page-btn.active {
+      background-color: #007bff;
+      color: #fff;
+    }
 
-/* section 5 */
+.der{
+  border-radius:500px !important ;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
 
-  /* foter */
-.p-fotre{
-  font-size: 14px !important;
- }
+.der.page-btn:hover {
+  background-color: #06ffff !important;
+  transform: translateY(-14px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
 
- .btn-foter{
-   background-color: rgba(160, 16, 23, 0.979);
-    border-radius: 50px !important;
-    color: #f8f5f5;
- }
-
-.foter{
-  background-color: #afa9a9;
- }
-
-   /* inter section obsrve */
-.slide-left {
+/* inter section observ */
+  .slide-left {
   transform: translateX(-100px);
-   transition: all 0.8s ease-out;
-   opacity: 0;
+  transition: all 0.8s ease-out;
+  opacity: 0;
 }
 
 .slide-zoomin{
-    transition: all 0.8s ease-out;
-    opacity: 0;
-     transform: scale(1.09);
+  transition: all 0.8s ease-out;
+  opacity: 0;
+  transform: scale(1.09);
 }
 
 .slide-right {
-   transform: translateX(100px);
-   transition: all 0.8s ease-out;
-   opacity: 0;
+  transform: translateX(100px);
+  transition: all 0.8s ease-out;
+  opacity: 0;
 }
 
 .slide-up {
-   transform: translateY(100px);
-   transition: all 0.8s ease-out;
-   opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.8s ease-out;
+  opacity: 0;
 }
 
 .in-view {
