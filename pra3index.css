@@ -58,7 +58,7 @@ font-size: 14px !important;
  /* hed section 1 */
 
 .had-img {
-    background-image: url("/farst test are websaite/parsnal pro/parsnl-all-img/par3-had.jpg");
+    background-image: url("parsnl-all-img/par3-had.jpg");
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
