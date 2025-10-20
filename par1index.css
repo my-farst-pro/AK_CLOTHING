@@ -1,37 +1,44 @@
 
 body {
  font-family: 'Arial', sans-serif;
-text-transform: capitalize;
-color: hsl(0, 0%, 20%); 
-overflow-x: hidden !important;    
+ text-transform: capitalize;
+ color: hsl(0, 0%, 20%); 
+  overflow-x: hidden;
 }
-p{
 
-        color: #292626;
-font-size: 14px !important;
+html, body {
+  overflow-x: hidden;
 }
+
+p{
+  color: #292626;
+  font-size: 14px !important;
+}
+
 h1,h2,h3{
      color: #000;     
 }
 
 a::after {
-            content: '';
-            position: absolute;
-            bottom: 1px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: #fc4902e0 ;
-            transition: width 0.3s ease;
-        border-radius: 10px;
-        justify-content: center !important;
-        text-align: center !important;
+  content: '';
+   position: absolute;
+   bottom: 1px;
+   left: 0;
+   width: 0;
+   height: 2px;
+   background: #fc4902e0 ;
+   transition: width 0.3s ease;
+   border-radius: 10px;
+   justify-content: center !important;
+   text-align: center !important;
         }
-         a:hover::after {
- justify-content: center !important;
-            width: 100%;
-            text-align: center !important;
+
+a:hover::after {
+   justify-content: center !important;
+   width: 100%;
+   text-align: center !important;
         }
+
 .navbar-expand-lg{
   background-color: black !important;
  }
@@ -39,85 +46,90 @@ a::after {
 .n-sp{
 color: #fc4902e0 !important;
  }
+
  .n{
 margin-left: 5% !important;
-
  }
 
 .navbar-nav{ 
 font-size: 14px !important; 
-
-        }
-        /* li{
-
-            list-style: none;
-        } */
-
+}
+  
  li,a{
-     transition: all 0.5s ease !important;
-color: #f0f8ff !important;
-position: relative;
+   transition: all 0.5s ease !important;
+   color: #f0f8ff !important;
+   position: relative;
         }
-         a:hover{
-color: #fc4902e0 !important;
 
-
-         }
-
-        /* hed section 1 */
+a:hover{
+   color: #fc4902e0 !important;
+ } 
+ 
+ head{
+    background-color: #fff;
+   }
+     /* hed section 1 */
 
 .had-img {
-    background-image: url("/farst test are websaite/parsnal pro/parsnl-all -img/WhatsApp\ Image\ 2025-08-25\ at\ 00.24.33_dffe9c12.jpg");
+    background-image: url("parsnl-all-img/persnlsection3.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    justify-content: center;
-    padding: 18% !important;
+    align-items: center !important;
+    justify-content: center !important;
+  width: 100% !important; 
+  height: 100vh;
+  margin-top: 70px !important;
+  flex-direction: column;
+  display: flex;
+}
+
+@media(max-width: 991px){
+  .had-img { max-height: 400px; 
+  margin-top: 73px !important;}
+}
+
+@media(max-width: 767px){
+  .had-img { max-height: 300px; 
+ }
 }
 
 .clr{
-color: #fc4902e0 !important
-
+   color: #fc4902e0 !important;
 }
+
 .ab-h1{
-font-size: clamp(1.5rem,5vw,5rem) !important;
-   color: #000;   }
+   font-size: clamp(1.5rem,5vw,5rem) !important;
+   color: #000; 
+  }
 
 /* sectio 2 */
 
  .img-ab{
- border-radius: 2%;  
-width: 90%;
-height: 90%;
-
-
-
+   border-radius: 2%;  
 } 
+
 .mar{
-margin-left: 0px !important;
-
-
+   margin-left: 0px !important;
 }
+
 .icon{
- box-shadow: 0 6px 10px rgba(19, 18, 18, 0.2);
-        border-radius: 2px;
-width: 60px;
-height: 50px;
-background-color: hsla(0, 9%, 96%, 0.8);
-gap: 10% !important;
-transition: all 1.0s;
-
+    box-shadow: 0 6px 10px rgba(19, 18, 18, 0.2);
+    border-radius: 2px;
+    background-color: hsla(0, 9%, 96%, 0.8);
+    gap: 10% !important;
+    transition: all 1.0s;
 }
+
 .icon:hover{
-background-color: #57a2a5;
-        transform: translatey(-12%);
+    background-color: #57a2a5;
+    transform: translatey(-12%);
 }
+
 .k{
-
-margin-left: 5px;      
+   margin-left: 5px;      
 }
-
 
 /* section 3 */
 
@@ -126,27 +138,25 @@ margin-left: 5px;
 }
 
 .s3-h3{
-font-size: clamp(1.5rem,2.5vw,5rem) !important;
-   
-margin-left: -px !important;}
-       .s-3-s{
+   font-size: clamp(1.5rem,2.5vw,5rem) !important;
+   margin-left: -px !important;}
 
-        color: rgb(182, 76, 76);
+.s-3-s{
+    color: rgb(182, 76, 76);
+ }
 
-
-       }
 .s-3-n{
-
-color: rgb(18, 173, 4);
-
+    color: rgb(18, 173, 4);
 }
+
 /* section 4 */
 
 .l{
-        box-shadow: 0 6px 10px rgba(19, 18, 18, 0.2);
-        background-color: #f8f5f5;
- border-radius: 2%; 
+   box-shadow: 0 6px 10px rgba(19, 18, 18, 0.2);
+   background-color: #f8f5f5;
+   border-radius: 2%; 
 }
+
 .s-4-b{
 width: 97%;
  border-radius: 7px !important; 
@@ -154,80 +164,76 @@ padding-left: 7px !important;
 background-color: rgb(211, 44, 44);
 color:white;
 margin-bottom: 8% !important;
-
-
 }
 /* section 5 */
 
 .a{
-        border-radius: 2%; 
-        
-}
+     border-radius: 2%; 
+  } 
+
 .s3-h3{
-font-size: clamp(1.5rem,2.5vw,5rem) !important;
-       }
-       .s-5-s{
+   font-size: clamp(1.5rem,2.5vw,5rem) !important;
+ }
+ 
+ .s-5-s{
 
-        color: rgb(182, 76, 76);
-padding-bottom: 30px !important;
+   color: rgb(182, 76, 76);
+   padding-bottom: 30px !important;
+}
 
-       }
 .s-5-n{
-
-color: rgb(18, 173, 4);
-
+   color: rgb(18, 173, 4);
 }
 
 
 #s-4-icon{
-font-size:500% !important;
-color: rgb(211, 44, 44);
+  font-size:500% !important;
+  color: rgb(211, 44, 44);
 }
+
   /* foter */
-        .f-para{
-font-size: 12px !important;
+
+.f-para{
+   font-size: 12px !important;
+   overflow: hidden;
  }
     
-
-
-
- .img-ab {
+.img-ab {
   width: 100%;
   height: auto;
   display: block;
 }
-  .product-box {
+.product-box {
     border: 2px solid #000;     
-border-radius: 2%;
+    border-radius: 2%;
     height: 100%;                 
     box-sizing: border-box;
   }
 
-
-
   /* inter section obsrve */
+
 .slide-left {
   transform: translateX(-100px);
-      transition: all 0.8s ease-out;
-     opacity: 0;
+  transition: all 0.8s ease-out;
+   opacity: 0;
 }
+
 .slide-zoomin{
- transition: all 0.8s ease-out;
-     opacity: 0;
-        transform: scale(1.09);
+   transition: all 0.8s ease-out;
+   opacity: 0;
+   transform: scale(1.09);
 }
-
-
+ 
 .slide-right {
   transform: translateX(100px);
-      transition: all 0.8s ease-out;
-     opacity: 0;
+  transition: all 0.8s ease-out;
+  opacity: 0;
 }
 
 .slide-up {
   transform: translateY(100px);
-    transition: all 0.8s ease-out;
-     opacity: 0;
+  transition: all 0.8s ease-out;
+  opacity: 0;
 }
 
 .in-view {
