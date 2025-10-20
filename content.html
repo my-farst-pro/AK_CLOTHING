@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>persnol3 pro</title>
+    <!-- linnk bosstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- link castam css -->
+<link rel="stylesheet" href="par-content.css">
+
+    <!-- link fonwt asome -->
+ 
+ <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+/>
+</head>
+
+
+<body >
+
+<section>
+<nav class="slide-up   navbar navbar-expand-md bg-dark navbar-dark  fixed-top p-3 ">
+  <div class="container-fluid ">
+    <a class="navbar-brand fw-bold n " href="#">AK<span class="n-sp">CLOTHING</span></a>
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar">
+      <ul class="navbar-nav  ">
+         <li class="nav-item"><a class="nav-link" href="/farst test are websaite/parsnal pro/parsnal1.html">home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/farst test are websaite/parsnal pro/parsnal3.html">our product</a></li>
+        <li class="nav-item"><a class="nav-link" href="/farst test are websaite/parsnal pro/parsnal2.html">about us</a> </li>
+        <li class="nav-item"><a class="nav-link" href="/farst test are websaite/parsnal pro/par-content.html">contact us</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+</section>
+
+
+<section id="contact" class="py-5 bg-light mt-5">
+  <div class="container-xxl">
+    <div class="text-center mb-5">
+          <h1 class="fw-bold pt-5 slide-up">CONTACT US</h1>
+    <div class="mx-auto con-laine slide-up" ></div>
+  </div>
+
+    <div class="row g-4 p-5">
+      <!-- Contact Info -->
+      <div class="col-lg-6 col-md-6 col-sm-12 slide-left ps-0">
+        <div class="d-flex align-items-center mb-3">
+          <div class=" rounded-circle d-flex align-items-center justify-content-center  icon-saize">
+            <i class="fa-solid fa-location-crosshairs"></i>
+     </div>
+          <p class="ms-2 fw-bold mb-0">83700 Quetta, Balochistan, Pakistan</p>
+   </div>
+
+        <div class="d-flex align-items-center mb-3">
+          <div class=" rounded-circle d-flex align-items-center justify-content-center icon-saize">
+            <i class="fa-regular fa-envelope"></i>
+     </div>
+          <p class="ms-2 fw-bold mb-0">akdevloper270@gmail.com</p>
+  </div>
+
+        <div class="d-flex align-items-center mb-3">
+          <div class=" rounded-circle d-flex align-items-center justify-content-center  icon-saize  " >
+            <i class=" p-0 fa-solid fa-phone"></i>
+       </div>
+          <p class="ms-2 fw-bold mb-0">(+92) 332 5895978</p>
+    </div>
+
+        <div class="d-flex align-items-center mb-3">
+          <div class=" rounded-circle d-flex align-items-center justify-content-center  icon-saize" >
+            <i class=" p-0 fa-regular fa-clock"></i>
+      </div>
+          <p class="ms-2 fw-bold mb-0">Monday - Saturday: 9:00 AM - 7:00 PM</p>
+     </div>
+
+        <div class="d-flex align-items-center">
+          <div class=" rounded-circle d-flex align-items-center justify-content-center icon-saize" >
+            <i class=" p-0 fa-regular fa-clock"></i>
+          </div>
+          <p class="ms-3 fw-bold mb-0">Sunday: Closed</p>
+        </div>
+      </div>
+
+      <!-- Right Side: Form -->
+      <div class="col-lg-6 col-md-6 col-sm-12  slide-right ps-0">
+        <form id="contactForm" class="p-3 bg-white shadow rounded">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Enter Name" required>
+          </div>
+
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Enter Email" required>
+          </div>
+
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-content fw-bold px-4">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+
+
+    <footer class="bg-body-secondary  p-0 m-0">
+      <div class="slide-up  w-100 h-100 bg-dark justify-content-center">
+          <p class="f-para text-center text-light py-3">COPYRIGHT 2025 AK CLOTHING BRAND - DESIGNED: BY AK DEVELOPER</p>
+    </div>
+  </footer>
+</section>
+
+<!-- link bostrab second link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+
+// A P I slide animation
+
+const slides = document.querySelectorAll('.slide-left, .slide-right, .slide-up,.slide-zoomin');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in-view');
+    }
+  });
+}, {
+  threshold: 0.6
+});
+
+slides.forEach(el => observer.observe(el));
+
+
+    
+</script>
+</body>
+</html>
