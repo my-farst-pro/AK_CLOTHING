@@ -1,58 +1,68 @@
+
 body {
-   font-family: 'Arial', sans-serif;
-   text-transform: capitalize;
-   color: #333;     
+  font-family: 'Arial', sans-serif;
+  text-transform: capitalize;
+  color: #333;     
 }
 
 html, body {
   overflow-x: hidden;
 }
 
-a::after {
+ a::after {
      content: '';
      position: absolute;
-     bottom: 1px;
-     left: 0;
-     width: 0;
+    bottom: 1px;
+    left: 0;
+    width: 0;
      height: 2px;
      background: #fc4902e0 ;
      transition: width 0.3s ease;
      border-radius: 10px;
      justify-content: center !important;
-    text-align: center !important;
+     text-align: center !important;
         }
-       
-a:hover::after {
-     justify-content: center !important;
+
+ a:hover::after {
+    justify-content: center !important;
     width: 100%;
     text-align: center !important;
-        }
+     }
 
 .navbar-expand-lg{
-     background-color: black !important;
-  }
+  background-color: black !important;
+ }
 
+
+ .navbar-nav  {
+  margin-right: 50px !important;
+}
+.nav-item{
+
+ margin-right: 10px !important;
+
+}
 .n-sp{
-color: #fc4902e0 !important;
+  color: #fc4902e0 !important;
  }
 
 .n{
-   margin-left: 5% !important;
-}
+  margin-left: 5%!important;
+ }
 
 .navbar-nav{ 
    font-size: 14px !important; 
- }
-      
- li,a{
-    transition: all 0.5s ease !important;
-    color: #f0f8ff !important;
-    position: relative;
-  }
+}
+     
+li,a{
+  transition: all 0.5s ease !important;
+  color: #f0f8ff !important;
+  position: relative;
+    }
 
- a:hover{
-   color: #fc4902e0 !important;
- }
+a:hover{
+  color: #fc4902e0 !important;
+  }
          
  /* content section */
 
@@ -64,37 +74,41 @@ color: #fc4902e0 !important;
 }
 
 .btn-content{
-    background-color:  rgba(160, 16, 23, 0.979);
+    background-color:#fc4902e0 ; 
 }
 
 .icon-saize{
   width: 40px; height: 40px;
+}
+.b{
+ box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3) !important;
+  background-color: #fff8f7 !important;
 }
 
           /* inter section observ */
 
 .slide-left {
   transform: translateX(-100px);
-      transition: all 0.8s ease-out;
-     opacity: 0;
+   transition: all 0.8s ease-out;
+   opacity: 0;
 }
 
 .slide-zoomin{
- transition: all 0.8s ease-out;
-     opacity: 0;
-        transform: scale(1.09);
+    transition: all 0.8s ease-out;
+    opacity: 0;
+     transform: scale(1.09);
 }
 
 .slide-right {
-  transform: translateX(100px);
-      transition: all 0.8s ease-out;
-     opacity: 0;
+   transform: translateX(100px);
+   transition: all 0.8s ease-out;
+   opacity: 0;
 }
 
 .slide-up {
-  transform: translateY(100px);
-    transition: all 0.8s ease-out;
-     opacity: 0;
+   transform: translateY(100px);
+   transition: all 0.8s ease-out;
+   opacity: 0;
 }
 
 .in-view {
