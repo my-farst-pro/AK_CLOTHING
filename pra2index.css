@@ -101,13 +101,11 @@ font-size: 14px !important;
 display: flex !important;
   flex-direction: column !important;
 
-  padding-left: 20% !important;
+  padding-left: 25% !important;
 gap: 5%;
   }
    .page{
 
-  margin-top:5px !important;
-  margin-bottom: 5px !important;
           border: none !important;
     }
      
@@ -179,21 +177,18 @@ gap: 5%;
       width: 160px !important;
       border: none !important;
       color: #000 !important;
-  margin-top: 2px !important;
-  margin-bottom: 20px !important;
+ 
           border: none !important;
     }
     #k{
  
    
 
-
-
-     display: flex; 
- 
-  
-   justify-content: center !important;
-   gap: 10px;
+    margin-top: 8px !important;
+     margin-bottom: 20px !important;
+    display: flex; 
+    justify-content: center !important;
+    gap: 10px;
 }
 
   
