@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Arial', sans-serif;
   text-transform: capitalize;
@@ -8,6 +7,7 @@ body {
 html, body {
   overflow-x: hidden;
 }
+
 
  a::after {
   content: '';
@@ -32,7 +32,14 @@ a:hover::after {
 .navbar-expand-lg{
   background-color: black !important;
  }
+.navbar-nav  {
+  margin-right: 50px !important;
+}
+.nav-item{
 
+ margin-right: 10px !important;
+
+}
 .n-sp{
    color: #fc4902e0 !important;
 }
@@ -43,6 +50,7 @@ margin-left: 5% !important;
 
 .navbar-nav{ 
 font-size: 14px !important; 
+
  }
        
  li,a{
@@ -58,7 +66,7 @@ font-size: 14px !important;
  /* hed section 1 */
 
 .had-img {
-    background-image: url("parsnl-all-img/par3-had.jpg");
+    background-image: url("/farst test are websaite/parsnal pro/parsnl-all-img/par3-had.jpg");
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -81,11 +89,29 @@ font-size: 14px !important;
 
 @media(max-width: 991px){
   .had-img { max-height: 400px;
-    margin-top: 73px !important; }
+    margin-top: 73px !important;
+  
+  }
  }
 
  @media(max-width: 767px){
-  .had-img { max-height: 300px; }
+  .had-img { max-height: 300px;
+  
+  }
+  #k{
+display: flex !important;
+  flex-direction: column !important;
+
+  padding-left: 20% !important;
+gap: 5%;
+  }
+   .page{
+
+  margin-top:5px !important;
+  margin-bottom: 5px !important;
+          border: none !important;
+    }
+     
 }
 
 /* sectio 2 */
@@ -101,9 +127,9 @@ font-size: 14px !important;
   transform: translateY(-14px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
- .page-btn:hover {
-    background-color: #4993e2;
-    transform: translateY(-14px);
+ .page:hover,.page-btn:hover {
+    background-color:#fc4902e0 !important;
+    transform: translateY(-4px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
 
@@ -141,25 +167,39 @@ font-size: 14px !important;
       background-color: #fff;
       border: none;
     
-      padding: 10px 20px;
+ padding: 10px 20px;
       cursor: pointer;
       border: 2px solid rgb(7, 7, 7);
       border-radius: 15%;
       transition: 0.3s ease-in-out;
     }
-    .k{
-      margin-top: 10% !important;
+     .page{
+      background-color: #eee8e8 !important;
+     cursor: pointer;
+      transition: 0.3s ease-in-out;
+      width: 160px !important;
+      border: none !important;
+      color: #000 !important;
+  margin-top: 2px !important;
+  margin-bottom: 20px !important;
+          border: none !important;
+    }
+    #k{
+ 
+   
+
+
+
      display: flex; 
-   flex-wrap: wrap;
-   justify-content: center;
+ 
+  
+   justify-content: center !important;
    gap: 10px;
 }
 
-  .kk{
-  gap: 7px !important; 
-  }
+  
 
-.page-btn.active {
+.page,.page-btn.active {
       background-color: #007bff;
       color: #fff;
     }
