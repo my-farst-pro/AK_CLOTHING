@@ -40,6 +40,14 @@ html, body {
 .n{
   margin-left: 5%!important;
  }
+ .navbar-nav  {
+  margin-right: 50px !important;
+}
+.nav-item{
+
+ margin-right: 10px !important;
+
+}
 
 .navbar-nav{ 
    font-size: 14px !important; 
@@ -58,7 +66,7 @@ a:hover{
         /* hed section 1 */
 
 .had-img {
-   background-image: url("/farst test are websaite/parsnal pro/parsnl-all -img/par2.had.jpg");
+   background-image: url("/farst test are websaite/parsnal pro/parsnl-all-img/par2.had.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
