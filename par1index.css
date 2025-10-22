@@ -19,6 +19,15 @@ h1,h2,h3{
      color: #000;     
 }
 
+
+.navbar-nav  {
+  margin-right: 50px !important;
+}
+.nav-item{
+
+ margin-right: 10px !important;
+
+}
 a::after {
   content: '';
    position: absolute;
