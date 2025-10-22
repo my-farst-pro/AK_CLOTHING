@@ -85,6 +85,14 @@ a:hover{
 
 @media(max-width: 767px){
 .had-img { max-height: 300px; }
+/* last section img */
+  .img-last{
+
+  width: 100% !important;
+height: 100% !important;
+
+}
+ 
   }
 
 
